@@ -49,5 +49,7 @@ management:
 # Application specific properties
 # ===================================================================
 
-application.batch.inputPath: /Users/srivats.vasu/Downloads/patient-batch-loader-start/data
+application:
+    batch:
+        inputPath: /Users/srivats.vasu/Downloads/patient-batch-loader-start/data/
 

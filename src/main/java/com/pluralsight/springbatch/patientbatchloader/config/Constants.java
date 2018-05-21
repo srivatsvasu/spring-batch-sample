@@ -31,7 +31,10 @@ public final class Constants {
 	 * run-time.
 	 */
 	public static final String SPRING_PROFILE_NO_LIQUIBASE = "no-liquibase";
+    public static final String JOB_NAME = "patient-batch-loader";
+    public static final String JOB_PARAM_FILE_NAME = "patient-batch-loader.fileName";
+    public static final String STEP_NAME = "process-patients-step";
 
-	private Constants() {
+    private Constants() {
 	}
 }
